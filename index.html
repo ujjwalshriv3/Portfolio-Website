@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Website</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fontawesome link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header class="bg-dark fixed-top">
+      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="https://linkedin.com/in/ujjawal-shrivastava-81a384218">Ujjawal Shrivastava</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills"><b>SKILLS</b></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#portfolio"><b>POROJECTS</b></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about"><b>ABOUT ME</b></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#cv"><b>CURRICULUM VITAE</b></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact"><b>CONTACT</b></a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero or Showcase Section -->
+    <section class="hero d-flex flex-column align-items-center justify-content-center">
+      <div class="text-center">
+        <h2 class="h2 text-white fw-medium fst-italic"><b>Hello I'm Ujjawal Shrivastava</b></h2>
+        <h2 class="display-3 text-white fw-bold">Software Developer</h2>
+        <a href="#cv" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">TELL ME MORE</a>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="container py-5" id="skills">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>SKILLS</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">Continuously improving my skills and knowledge in the field.</h5>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between mx-0">
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-cart-shopping"></i>
+          <h3 class="mt-4 h4">Front-end Development</h3>
+          <p class="text-center"> Familer with CSS, and JavaScript. Experienced in responsive web design, building user-friendly interfaces, and using modern frameworks like ReactJS.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-laptop"></i>
+          <h3 class="mt-4 h4">Back-end Development</h3>
+          <p class="text-center">Skilled in server-side programming using technologies like Node.js and Express. Experience working with databases such as MongoDB and MySQL.</p>
+        </div>
+       <!-- <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-mobile-screen-button"></i>
+          <h3 class="mt-4 h4">Mobile App Development</h3>
+          <p class="text-center">Proficient in developing mobile apps for Android using frameworks like React Native. Experienced in building engaging and intuitive mobile user interfaces.</p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="container py-5" id="portfolio">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>MY PROJECTS</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">A collection of projects I've worked on.</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <video width="255" height="300" autoplay muted>
+                <source src="images/Movie.mp4" type="video/mp4">
+              </video>
+              <div class="card-body text-center">
+                <h6 class="card-title"><a href="https://github.com/ujjwalshriv3/MOVIE-WEBISTE-PROJECT"</h6>MOVIE-WEBISTE</a>
+                <p class="card-text tex>t-secondary">HTML/CSS/JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/flight-img.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title"><a href="https://github.com/ujjwalshriv3/Flight-Reservation-System"</h6>Flight-Reservation-System</a>
+                <p class="card-text text-secondary">HTML/CSS/Bootstrp/js</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/food-img.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title"><a href="https://github.com/ujjwalshriv3/food-delievery-Website-" Delivery</h6>Food Delivery Website</a>
+                <p class="card-text text-secondary">HTML/CSS/JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <video width="255" height="295" autoplay muted>
+                <source src="images/Login.mp4" type="video/mp4">
+              </video>
+              <div class="card-body text-center">
+                <h6 class="card-title"><a href="https://github.com/ujjwalshriv3/Responsive-Login-Form"</h6>Login Form</a>
+                <p class="card-text text-secondary">HTML/CSS</p>
+              </div>
+      </div>      
+    </section>
+
+    <!-- About Section -->
+    <section class="container py-5" id="about">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center">
+          <h2>ABOUT ME</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">Learn more about me, my background, and what motivates me.</h5>
+        </div>
+      </div>
+      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+        <div class="col-9 col-md-5 text-md-end">
+          <h5>2023-Present</h5>
+          <h5> Learning Salesforce Development</h5>
+          <p>I am passionate about Salesforce Development and basically I focused on Automate New things in the filed of Developer I am committed to continuous learning and growth within the Salesforce ecosystem As a Trailblazer I embrace challenges and thrive on finding innovative solutions to complex problems</p>
+        </div>
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/Salesforce.png" alt="img">
+        </div>
+      </div>
+      <div class="row justify-content-md-end mt-5 pt-5">
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-2.jpg" alt="img">
+        </div>
+        <div class="col-9 col-md-5">
+          <h5>2021-Present</h5>
+          <h5>My Internship journy</h5>
+          <p>Durning My internship I gained Lot of experience and working on hands-on project and slove some Complex problems such as find the bugs in repo and issues i have Deep knowledge of Github and Software tools and technologies to gain My Skills durnig the internship & Currenty i working on Opensource project </p>
+        </div>
+      </div>
+      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+        <div class="col-9 col-md-5 text-md-end">
+          <h5>2021-Present</h5>
+          <h5>Maharshi Dayanand University</h5>
+          <h5>Bachelor Of Technology(CSE)</h5>
+          <p>Currenty i'm pursuing my B.tech Degree from MD University and i Learn to developing My skills and Experties and gained hands-on experience in The Field of Computer Science Basically i want to Kikstart my journy in the Era of Software Development</p>
+        </div>
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/MDU.png" alt="img">
+        </div>
+      </div>
+      <div class="row justify-content-md-end mt-5 pt-5">
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-4.jpg" alt="img">
+        </div>
+        <div class="col-9 col-md-5">
+          <h5>My Future Scope</h5>
+          <h5>Continuing to Make a Difference</h5>
+          <p>I am committed to leveraging my skills and expertise to contribute to meaningful projects that have a positive impact on society. I am eager to take on new challenges and collaborate with talented individuals to create innovative solutions.</p>
+        </div>
+      </div>
+      <div class="row justify-content-md-center mt-5 pt-5">
+        <div class="col-3 col-md-2 d-flex justify-content-center hire-text">
+          <h2 class="h4 d-flex justify-content-center align-items-center bg-primary text-white rounded-circle border border-5 border-dark-subtle">Your<br>Next<br>Hire</h2>
+        </div>
+      </div>      
+    </section>
+
+    <!-- Curriculum Vitae Section -->
+    <section class="container py-5" id="cv">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center">
+          <h2>CURRICULUM VITAE</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">A small sampling of some of the projects I've worked on as a student of the CSE program.</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mt-5 order-lg-0 order-1 text-center">
+          <img class="img-fluid rounded-circle border border-5 border-dark-subtle" src="images/profile-img.jpg" alt="profile-img">
+          <h2 class="mt-3">Ujjawal Shrivastava</h2>
+          <ul class="list-unstyled contact-info">
+            <li><i class="fas fa-envelope me-2"></i> ujjawalshrivastva698@gmail.com</li>
+            <li><i class="fas fa-phone me-2"></i> (+91) 8743917011</li>
+            <li><i class="fas fa-map-marker-alt me-2"></i>B-189 St-10 Vikas Nagar New Delhi</li>
+          </ul>
+          <ul class="social-icons my-5 d-flex justify-content-center">
+            <a href="https://twitter.com/ujjawal_shri123" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/ujjwalshriv3" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/ujjawal-shrivastava-81a384218" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
+          </ul>
+          <h5>Technical Skills</h5>
+          <ul class="list-unstyled">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>MERN Stack</li>
+            <li>MySQL</li>
+            <!-- Add or remove skills as needed -->
+          </ul>
+          <h5>Passion</h5>
+          <ul class="list-unstyled">
+            <li>Try To Learning New things</li>
+            <li>Reading</li>
+            <li>Writting</li>
+            <li>Developing</li>
+            <!-- Add or remove interests as needed -->
+          </ul>
+        </div>
+        <div class="col-lg-7 order-lg-1 order-0 mt-5 text-start">
+          <h3>Profile</h3>
+          <hr>
+          <p>My name is Ujjawal Shrivastva and I am currently pursuing a B.Tech in Computer Science from MERI-COLLEGE of Engg & Tech I am passionate about Salesforce Development and basically I focused on Automate New things in the filed of Developer I am committed to continuous learning and growth within the Salesforce ecosystem As a Trailblazer and I'm looking to collaborate on Projects that enhances my knowledge and bring growth to the clients. Currently i'm working on Open source project.I embrace challenges and thrive on finding innovative solutions to complex problems.
+          </p>
+          <h3>Highlights of Qualifications</h3>
+          <hr>
+          <ul>
+            <li><b>Managment Education Research institute(MERI),New Delhi </b><br>Bachelor of Technology-B.tech (CSE)<br>
+            Oct2021-July2025</li>
+            <li><b>Maharshi Dayanand University</b><br>Bachelor of Technology-B.tech(CSE)<br>
+            2021-2025</li>
+            <li><b>Holy Convent Of Sr. Sec School Vikas Nagar New Delhi</b><br>PCMCS(Physics and Chemistry With Mathematics)<br>2019-2021</li>
+            <!-- Add or remove qualifications as needed -->
+          </ul>
+          <h3>Education</h3>
+          <hr>
+          <dl>
+           <ul>
+            <li><b>Maharshi Dayanand University,Rohtak</b><br>B.TECH(CSE)<br><b>2021-Present</b></li>
+           </ul>
+          </dl>
+          <h3>Additional Courses & Training</h3>
+          <hr>
+          <dl>
+           <ul>
+            <li><b>Short Term Course On Remote Sensing GIS</b><br>MERI College Of Engineering And Technology Collebration with <b>IIT Bombay</b> On Google Meet Platform<br>Oct2024-Sept2024</li>
+            <li><b>Introduction to CyberSecurity</b><br>Cisco Network Academy
+            <li><b>Advance Diploma in Computer Application(ADCA)<br></b>Institute for Advanced Computer Technology</li>
+            <li><b>BLOCKCHAIN TECHNOLOGY AND IT's APPLICATION</b><br>International One Week Workshop Orgnized By Department of CSE Vardhman Collge of Engineering,Hyderabad<br>25 to 3rd May2023</li>
+           </ul>
+          </dl>
+          <h3>Work Experience</h3>
+          <hr>
+          <dl>
+            <dt>07/2023 - 08/2023</dt>
+            <dd>Cloud Computing</dd>
+            <dd><b>Inter at Cloud Counselage Pvt.Ltd</b></dd>
+
+            <dt>09/2023 - 10/2023</dt>
+            <dd>Java programming</dd>
+            <dd><b>inter at Codesoft Pvt.Ltd</b></dd>
+            <dt>07/2024 -09/2024</dt>
+
+            <dd><a href="https://www.salesforce.com/trailblazer/ujjawalshrivastava">Salesforce Developer</a></dd>
+            <dd>During the internship I learn Salesforce fundamentals orgnizational Setup Relationship & process autometion types of flows & security ,Apex,Testing and Debugging ,Vs code setup with CLI setup Lightining Web Component (LWC) & API and i gain some Supber Badge Like Apex Specilist Process Autometion Specialist And Developer super set <a href="https://skillwallet.smartinternz.com/internships/salesforce_certificates/201d546992726352471cfea6b0df0a48"</dd>Click here</dl></a>
+
+            <dd><b>TheSmartbridge</b></dd>
+
+            <dt>10 May/2024-10Aug/2024</dt>
+            <dd> Open Source Contributor</dd>
+            <dd><b>GirlSCript Summer Of Code</b></dd>
+            <dd>During working on open source project as a contributor Resolved Complex Software Code issue and bug in the project and enhancing skills in community engagement ,teamwork process and web services as contributor i did Postman API fundamentals Student Expert badge from GSSOC'24 <a href="https://badgr.com/public/assertions/V3jAxIx_SDawtkumLQKsyQ?identity__email=ujjawalshrivastava698@gmail.com"</dd>Click here</a>
+          
+
+            <!-- Add or remove work experience entries as needed -->
+          </dl>
+          <h3>Extracurricular Activities</h3>
+          <hr>
+          <dl>
+            <dt>RecodeHive</dt>
+            <dd>Contibutor</dd>
+            <dd>As acontibutor i create awesome git profile which is design by me  and as contributor i play a crucial role to define my expertise and knowledge in the filed of Development <a href="https://recodehive.github.io/awesome-github-profiles/"</dd> Check this</a>
+          </dl>
+        </div>
+      </div>      
+    </section>
+
+     <!-- Contact Section -->
+     <section class="py-5" id="contact">
+      <div class="container-xxl py-5">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white">HOW TO REACH ME</h2>
+          <h5 class="text-white fw-normal py-2 fst-italic">Interested if I'd be the right fit for your team? Fill in this form and I will respond within 24-48 hours.</h5>
+        </div>
+        <div class="row pt-4 mt-5">
+          <div class="col-12">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="hidden" name="access_key" value="e89cb6d3-6303-4c08-b98c-b1825fd6d2f6"> 
+                    <input type="text" class="form-control" name="Enter Name" placeholder="Enter Name*" required>
+                    <label for="Enter Name">Enter Name*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" name=" Enter Email" placeholder="Enter Email*" required>
+                    <label for=" Enter Email">Enter Email*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" name=" Enter Phone" placeholder="Enter Phone*" required>
+                    <label for="Enter Phone">Enter Phone*</label>
+                  </div>
+                </div>
+                <div class="form-floating col-lg-6">
+                  <textarea class="form-control" placeholder="Leave a comment here" name="Enter Message" style="height: 205px" required></textarea>
+                  <label for="Enter Message" class="px-4">Enter Message*</label>
+                </div>
+                <div class="col-12 mt-5 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+                </div>
+              </div>
+           </form>
+          </div>
+        </div>
+       </div>
+     </section>
+      <section class="map">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div id="map">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3404704041973!2d77.0614676249441!3d28.619556225671836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04d088f7ac93%3A0x1db406bd94cf6e8e!2sUttam%20Nagar%20East%2C%20Uttam%20Nagar%2C%20Delhi%2C%20110059!5e0!3m2!1sen!2sin!4v1725105659118!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+     <!-- Footer -->
+     <footer>
+      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-between">
+        <p>Copyright©2024 Ujjawal Shrivastva</p>
+        <ul class="social-icons d-flex">
+          <a href="https://twitter.com/ujjawal_shri123" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
+          <a href="https://github.com/ujjwalshriv3" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa fa-github"></i></small></a>
+          <a href="https://linkedin.com/in/ujjawal-shrivastava-81a384218" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
+        </ul>
+      </div>
+     </footer>
+    
+     <!-- Bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
